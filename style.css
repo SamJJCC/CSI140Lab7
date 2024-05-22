@@ -1,0 +1,153 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(15, 136, 136);
+   padding:1.5rem;
+   text-align: center;
+   font-size: 28px;
+}
+header a{
+    color:white;
+    padding:7rem;
+    text-decoration: none;
+  
+}
+
+main{
+    font-size: 30px;
+    
+}
+body{
+    border:5px solid rgb(34, 77, 97);
+    box-shadow: 0 0 25px 5px rgb(42, 65, 107);
+    max-width: 1800px;
+    margin:auto;
+    height:100%;
+ 
+  
+}
+
+.first-section img{
+width:100%;
+height:40rem;
+}
+
+.first-section{
+    text-align: center;
+    position:relative;
+    padding:2rem;
+
+   
+}
+.first-section-text{
+    text-align: center;
+    position:absolute;
+
+    top:30%;
+    left:30%;
+    margin:2rem;
+    color:rgb(204, 88, 88);
+    font-size: 4rem;
+   
+    text-shadow:3px 5px rgb(248, 248, 248);
+   
+}
+
+.tech-info1 p{
+    line-height: 2em;
+}
+#bq1 footer{
+ background-color: rgb(144, 181, 196);
+ color:black;
+ line-height: 2rem;
+
+}
+.tech-info2{
+    line-height: 2em;
+  
+}
+
+
+
+.more-tech-info .tech-health{
+ position:absolute;
+ 
+ width:27%;
+ height:20rem;
+
+}
+
+.more-tech-info .info-3{
+    position:relative;
+    text-align: center;
+    border:5px solid rgb(39, 109, 131);
+    left:35%;
+    width:35%;
+    height:20rem;
+   
+   
+   
+}
+.more-tech-info .diff-tech{
+
+    float:right;
+    width:30%;
+    height:20rem
+   
+}
+.info-3 .scroll{
+    font-size: 30px;
+    overflow: auto;
+    height:5em;
+ 
+}
+ul{
+    list-style-type: none;
+}
+li::before{
+content:"\2600";
+color:rgb(64, 145, 165);
+font-size: 1em;
+}
+.info4{
+    line-height: 1.5em;
+   z-index: 20;
+
+   
+}
+ .info-4 .info4{
+    float:right;
+    width:20%;
+  position:relative;
+
+   top:-18.5rem;
+   right:5rem;
+ 
+
+ }
+
+ button{
+    height:11rem;
+    font-size: 20px;
+    background-color: rgb(159, 200, 228);
+    color:white;
+ }
+ button:hover{
+ height:10rem;
+ background-color:rgb(75, 169, 185);
+ }
+footer{
+   
+    color:white;
+    background-color: rgb(23, 68, 68);
+    padding:0.5rem;
+    font-size:22px;
+    bottom:0;
+    text-align:center;
+
+ 
+
+}
